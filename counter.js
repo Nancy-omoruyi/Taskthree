@@ -12,7 +12,7 @@ add.addEventListener("click" , function(){
 });
 
 lower.addEventListener("click" , ()=>{
-    counter--;
+    counter -= 1;
     counterValue.innerText = counter;
     If (counter <= -1) {
         counter = 0;}
