@@ -7,13 +7,15 @@ let counter = 0;
 add.addEventListener("click" , ()=>{
     counter++;
     counterValue.innerText = counter;
-    If value < 50;
+    If (value >= 50) {
+        value = 49;}
 });
 
 lower.addEventListener("click" , ()=>{
     counter--;
     counterValue.innerText = counter;
-    If value > 0;
+    If (value <= -1) {
+        value = 0;}
 });
 
 
