@@ -4,12 +4,12 @@ let counterValue = document.querySelector("#counterValue");
 
 let counter = 0;
 
-add.addEventListener("click" , ()=>50{
+add.addEventListener("click" , ()=>{
     counter++;
     counterValue.innerText = counter;
 });
 
-lower.addEventListener("click" , ()=>0{
+lower.addEventListener("click" , ()=>{
     counter--;
     counterValue.innerText = counter;
 });
