@@ -15,8 +15,8 @@ body{
 }
 
 #container{
-    height: 1000px;
-    width: 1000px;
+    height: 800px;
+    width: 800px;
     background-image: url("images/brown.jpg");
     position: absolute;
     margin: auto;
@@ -25,7 +25,7 @@ body{
 }
 
 #continer{
-    height: 800px;
+    height: 600px;
     width: 500px;
     background-image: url("images/brown.jpg");
     border: 2px solid #fff;
