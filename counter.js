@@ -4,18 +4,18 @@ let counterValue = document.querySelector("#counterValue");
 
 let counter = 0;
 
-add.addEventListener("click" , ()=>{
-    counter++;
+add.addEventListener("click" , function(){
+    counter += 1;
     counterValue.innerText = counter;
-    If (value >= 50) {
-        value = 49;}
+    If (counter >= 50) {
+        counter = 49;}
 });
 
 lower.addEventListener("click" , ()=>{
     counter--;
     counterValue.innerText = counter;
-    If (value <= -1) {
-        value = 0;}
+    If (counter <= -1) {
+        counter = 0;}
 });
 
 
