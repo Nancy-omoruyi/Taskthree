@@ -4,15 +4,15 @@ let counterValue = document.querySelector("#counterValue");
 
 let counter = 0;
 
-add.addEventListener("click" , function(){
-    counter += 1;
+add.addEventListener("click" , ()=>{
+    counter++;
     counterValue.innerText = counter;
     If (counter >= 50) {
         counter = 49;}
 });
 
-lower.addEventListener("click" , function(){
-    counter -= 1;
+lower.addEventListener("click" , ()=>{
+    counter--;
     counterValue.innerText = counter;
     If (counter <= -1) {
         counter = 0;}
