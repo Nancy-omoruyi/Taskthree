@@ -11,7 +11,7 @@ add.addEventListener("click" , function(){
         counter = 49;}
 });
 
-lower.addEventListener("click" , ()=>{
+lower.addEventListener("click" , function(){
     counter -= 1;
     counterValue.innerText = counter;
     If (counter <= -1) {
